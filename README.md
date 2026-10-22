@@ -1,18 +1,24 @@
-# Custom-IT-Help-Desk-Ticketing-Bot
-This bot automates and tracks IT support requests directly within Discord, reducing response times and eliminating lost emails. It features automated ticket creation, status tracking, and a web-based admin dashboard for management.
+# IT Help Desk Bot
 
-it-help-desk-bot/
-├── bot.py              # Main bot file
-├── database.py         # Database functions (if you split it)
-├── requirements.txt    # Python dependencies
-├── README.md           # Project documentation
-├── .gitignore          # Ignore sensitive files
-└── config/             # Optional: Configuration folder
-    └── settings.json   # Bot settings (optional)
-│
-├── database/            # Database scripts
-│   └── schema.sql       # SQL commands to create the ticket tables
-│
-├── .gitignore
-├── README.md            # **CRUCIAL: This is your project's documentation!**
-└── requirements.txt     # List of Python libraries needed (e.g., discord.py, flask)
+A Discord bot for managing IT support tickets with logging capabilities.
+
+## Features
+- Create and manage support tickets
+- Reply to tickets
+- Assign tickets to team members
+- Update ticket status
+- Dedicated logging channel
+- Comprehensive help system
+
+## Setup
+1. Install dependencies: `pip install -r requirements.txt`
+2. Set up your bot token in the code
+3. Run: `python bot.py`
+
+## Commands
+- `!create-ticket` - Create a new ticket
+- `!view-ticket` - View ticket details
+- `!reply` - Reply to a ticket
+- `!history` - View ticket history
+- `!setlogchannel` - Set logging channel (Admin)
+- `!help` - Show all commands
