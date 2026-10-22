@@ -1,2 +1,2 @@
-discord.py>=2.0.0
-sqlite3  # Built-in with Python
+discord.py>=2.4,<3
+python-dotenv>=1.0
